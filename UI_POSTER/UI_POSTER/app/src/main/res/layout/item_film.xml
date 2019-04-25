@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        app:cardBackgroundColor="#363636"
+
+        android:layout_margin="2dp"
+        app:cardCornerRadius="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="3dp">
+        <ImageView
+                android:layout_width="200dp"
+                android:id="@+id/ivAvatar"
+                android:padding="5dp"
+                tools:src="@drawable/therift"
+                android:layout_height="300dp"
+
+        />
+        <TextView
+                android:layout_toEndOf="@id/ivAvatar"
+                android:layout_width="wrap_content"
+                tools:text="The Rift"
+                android:textSize="28dp"
+                android:layout_margin="10dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:id="@+id/NameFilm"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:layout_toEndOf="@id/ivAvatar"
+                android:layout_below="@id/NameFilm"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                tools:text="The satellite has vanished and the only clue is a trail leading to a small village nestled on the outskirts of forest line.As the team begins to investigate they quickly discover that something else came back from space, something not of this world. As "
+                android:textSize="16dp"
+                android:textColor="#BEBEBE"
+                android:id="@+id/content"
+                android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
